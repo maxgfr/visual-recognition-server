@@ -2,11 +2,13 @@
 
 Application which uses Visual Recogntion - IBM
 
+It sends a JSON response.
+
 ## Configuration
 
 Firstly, you have to configure your Visual Recognition API KEY in the .env
 
-Then you have to lanch :
+Then, you have to launch this command :
 
 ```
     npm install && bower install && gulp bower
@@ -15,4 +17,9 @@ Then you have to lanch :
 
 ## Visual Recogntion API
 
-![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture.png)
+![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture1.png)
+
+
+## JSON Response
+
+![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture2.png)
