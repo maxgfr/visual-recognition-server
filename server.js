@@ -38,14 +38,14 @@ app.post('/upload', upload.single( 'file' ), function( req, result, next ) {
     }
 
     var params = {
-        images_file: fs.createReadStream(req.file.path)
+        images_file: fs.createReadStream(req.file.path),
     };
 
     visualRecognition.classify(params, function(err, res) {
         if (err) {
             console.log(err);
         } else {
-            //console.log(JSON.stringify(res, null, 2));
+            console.log(JSON.stringify(res, null, 2));
             result.status(200).send(JSON.stringify(res)); //send a JSON
         }
     });
