@@ -7,6 +7,7 @@ const nonce = require('nonce')();
 const querystring = require('querystring');
 const request = require('request-promise');
 
+const http = require('http');
 const multer  = require('multer');
 const sps = require( 'string.prototype.startswith' );
 const sizeOf =  require( 'image-size' );
@@ -50,10 +51,26 @@ app.post('/upload', upload.single( 'file' ), function( req, result, next ) {
     });
 });
 
-app.listen(3000, () => {
-    console.log('I\'m listening on port 3000!');
-});
 
+/* SET PORT AND CREATE SERVER */
+var port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
+var server = http.createServer(app);
+server.listen(port);
+function normalizePort(val) { //Normalize a port into a number, string, or false.
+  var port = parseInt(val, 10);
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+  return false;
+}
+
+/* ALLOW TO USE THESE DIRECTORIES */
 app.use('/bower_components', express.static('bower_components'));
 app.use('/vendor', express.static('vendor'));
 app.use('/assets', express.static('assets'));
