@@ -1,0 +1,5 @@
+---
+applications:
+ - name: visual-recogntion
+   random-route: true
+   memory: 1024M
