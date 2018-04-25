@@ -16,8 +16,10 @@
   "dependencies": {
     "bower": "^1.8.4",
     "cookie": "^0.3.1",
+    "cors": "^2.8.4",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
+    "express-formidable": "^1.0.0",
     "express-handlebars": "^3.0.0",
     "formidable": "^1.2.1",
     "fs": "0.0.1-security",

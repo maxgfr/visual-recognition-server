@@ -13,7 +13,8 @@ const sps = require( 'string.prototype.startswith' );
 const sizeOf =  require( 'image-size' );
 const exphbs =  require( 'express-handlebars' );
 const fs = require('fs');
-const formidable = require('formidable');
+const formidable = require('express-formidable');
+const cors = require('cors');
 const path = require('path');
 const VisualRecognitionV3 = require('watson-developer-cloud/visual-recognition/v3');
 const apiKey = process.env.VISUAL_RECOGNITION_API_KEY;
@@ -24,6 +25,9 @@ var visualRecognition = new VisualRecognitionV3({
     api_key: apiKey,
     version: '2016-05-20'
 });
+
+app.use(cors());
+app.use(formidable());
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/public/index.html'));
@@ -49,6 +53,25 @@ app.post('/upload', upload.single( 'file' ), function( req, result, next ) {
             result.status(200).send(JSON.stringify(res)); //send a JSON
         }
     });
+});
+
+app.post('/api/upload', (req, res) => {
+	console.log(req.fields);
+	console.log(req.files);
+
+	params.images_file = fs.createReadStream(req.files.images_file.path);
+
+    var params = {
+        images_file: fs.createReadStream(req.file.path),
+    };
+
+	visual_recognition.classify(params, function(err, success) {
+		if (err) {
+			res.json(err);
+		} else {
+			res.json(success);
+		}
+	});
 });
 
 
