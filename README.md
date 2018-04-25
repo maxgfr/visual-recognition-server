@@ -23,3 +23,8 @@ Then, you have to launch this command :
 ## JSON Response
 
 ![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture2.png)
+
+
+## API
+
+![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture3.png)
