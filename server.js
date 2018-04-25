@@ -53,17 +53,13 @@ app.post('/upload', upload.single( 'file' ), function( req, result, next ) {
     });
 });
 
-app.post('/api/upload', upload.array(), function( req, res, next ){
-    console.log(req.file);
-
-    if (!req.file)
-        return res.status(400).send('No files were uploaded.');
+app.post('/api/upload', upload.single('image'), function( req, res ) {
 
     var params = {
         images_file: fs.createReadStream(req.file.path),
     };
 
-    visual_recognition.classify(params, function(err, success) {
+    visualRecognition.classify(params, function(err, success) {
         if (err) {
             res.json(err);
         } else {
@@ -71,7 +67,6 @@ app.post('/api/upload', upload.array(), function( req, res, next ){
         }
     });
 });
-
 
 /* SET PORT AND CREATE SERVER */
 var port = normalizePort(process.env.PORT || '3000');
