@@ -57,9 +57,12 @@ app.post('/upload', upload.single( 'file' ), function( req, result, next ) {
 });
 
 app.post('/api/upload', upload.single('image'), function( req, res ) {
+    
+    var classifier_ids = ["Paris_2018_41173930"];
 
     var params = {
         images_file: fs.createReadStream(req.file.path),
+        classifier_ids: classifier_ids
     };
 
     visualRecognition.classify(params, function(err, success) {
