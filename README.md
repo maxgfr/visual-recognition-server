@@ -17,14 +17,14 @@ Then, you have to launch this command :
 
 ## Visual Recogntion API
 
-![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture1.png)
+![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture/capture1.png)
 
 
 ## JSON Response
 
-![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture2.png)
+![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture/capture2.png)
 
 
 ## API
 
-![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture3.png)
+![alt text](https://github.com/maxgfr/visual-recognition-server/blob/master/capture/capture3.png)
