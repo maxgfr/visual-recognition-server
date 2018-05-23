@@ -39,7 +39,7 @@ app.post('/upload', upload.single( 'file' ), function( req, result, next ) {
         } );
     }
 
-    var classifier_ids = ["default","Paris_2018_41173930"];
+    var classifier_ids = ["default", "Paris_2018_41173930"];
 
     var params = {
         images_file: fs.createReadStream(req.file.path),
@@ -58,7 +58,7 @@ app.post('/upload', upload.single( 'file' ), function( req, result, next ) {
 
 app.post('/api/upload', upload.single('image'), function( req, res ) {
 
-    var classifier_ids = ["default","Paris_2018_41173930"];
+    var classifier_ids = ["default", "Paris_2018_41173930"];
 
     var params = {
         images_file: fs.createReadStream(req.file.path),
