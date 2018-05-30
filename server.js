@@ -43,7 +43,8 @@ app.post('/upload', upload.single( 'file' ), function( req, result, next ) {
 
     var params = {
         images_file: fs.createReadStream(req.file.path),
-        classifier_ids: classifier_ids
+        classifier_ids: classifier_ids,
+        threshold: 0.1
     };
 
     visualRecognition.classify(params, function(err, res) {
@@ -62,7 +63,8 @@ app.post('/api/upload', upload.single('image'), function( req, res ) {
 
     var params = {
         images_file: fs.createReadStream(req.file.path),
-        classifier_ids: classifier_ids
+        classifier_ids: classifier_ids,
+        threshold: 0.1
     };
 
     visualRecognition.classify(params, function(err, success) {
