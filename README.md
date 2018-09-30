@@ -12,6 +12,7 @@ Then, you have to launch this command :
 
 ```
     npm install && bower install && gulp bower
+    npm start
 ```
 
 
