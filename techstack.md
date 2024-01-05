@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 maxgfr/visual-recognition-server is built on the following main stack:
+
 - [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Python](https://www.python.org) – Languages
@@ -35,11 +36,13 @@ maxgfr/visual-recognition-server is built on the following main stack:
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 maxgfr/visual-recognition-server is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
@@ -73,14 +76,15 @@ maxgfr/visual-recognition-server is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [maxgfr/visual-recognition-server](https://github.com/maxgfr/visual-recognition-server)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|135<br/>Tools used|11/10/23 <br/>Report generated|
+|136<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -444,9 +448,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (94)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (95)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (90)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (91)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -534,6 +538,7 @@ Full tech stack [here](/techstack.md)
 |[stylelint-order](https://www.npmjs.com/stylelint-order)|v0.8.1|04/23/18|Maxime Golfier |MIT|N/A|
 |[stylelint-scss](https://www.npmjs.com/stylelint-scss)|v2.5.0|04/23/18|Maxime Golfier |MIT|N/A|
 |[tar](https://www.npmjs.com/tar)|N/A|04/23/18|Maxime Golfier |ISC|N/A|
+|[test](https://www.npmjs.com/test)|N/A|04/23/18|Maxime Golfier |MIT|N/A|
 |[uglify](https://www.npmjs.com/uglify)|N/A|04/23/18|Maxime Golfier |MIT|N/A|
 |[uglify-js](https://www.npmjs.com/uglify-js)|v2.8.29|04/23/18|Maxime Golfier |BSD-2-Clause|N/A|
 |[uglifyjs](https://www.npmjs.com/uglifyjs)|N/A|04/23/18|Maxime Golfier |BSD-3-Clause|N/A|
@@ -554,4 +559,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
