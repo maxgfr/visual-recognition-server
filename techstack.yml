@@ -1,11 +1,12 @@
 repo_name: maxgfr/visual-recognition-server
 report_id: 5e28ab29cb022dd49699fe15628158c1
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T09:20:08+00:00'
+timestamp: '2024-01-05T08:56:36+00:00'
 requested_by: maxgfr
 provider: github
 branch: master
-detected_tools_count: 135
+detected_tools_count: 136
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server
   detection_source: Repo Metadata
 - name: D
   description: Modern convenience. Modeling power. Native efficiency.
@@ -24,6 +26,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3117/d-5.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -46,6 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -58,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/Gemfile
   detection_source: vendor/bootstrap/Gemfile
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -71,6 +77,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/composer.json
   detection_source: vendor/bootstrap/composer.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -82,6 +89,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -96,8 +104,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
-  detection_source_url: bower.json
-  detection_source: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/bower.json
+  detection_source: bower.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: ExpressJS
@@ -111,7 +119,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-25 16:10:39.000000000 Z
@@ -124,6 +132,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -136,6 +145,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -149,8 +159,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
-  detection_source_url: bower.json
-  detection_source: vendor/jquery/bower.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/bower.json
+  detection_source: bower.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: ent
@@ -162,7 +172,8 @@ tools:
   category: Data Stores
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/21146/default_3b393819f74c4cb10f98fa9e683fa28cf6cc85f5.png
-  detection_source: vendor/components-font-awesome/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: ws
@@ -174,6 +185,7 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -187,8 +199,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: vendor/bootstrap/package.json
-  detection_source: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/.babelrc.js
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: Dotenv
@@ -200,6 +212,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -212,6 +225,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -223,6 +237,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server
   detection_source: Repo Metadata
 - name: JSPM
   description: Frictionless browser package management
@@ -232,6 +247,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2869/SD4SNJm8_400x400.jpg
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -245,7 +261,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -257,6 +273,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/composer.json
   detection_source: vendor/bootstrap/composer.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -268,6 +285,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -280,6 +298,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -291,6 +310,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -303,7 +323,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -317,7 +337,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -330,6 +350,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/.travis.yml
   detection_source: vendor/bootstrap/.travis.yml
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -343,7 +364,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/844/iruTC031.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -357,7 +378,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source: vendor/components-font-awesome/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: nodemon
@@ -370,7 +392,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -382,6 +404,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -393,6 +416,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -404,6 +428,7 @@ tools:
   category: Back Office
   sub_category: Web Browser
   image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -415,6 +440,7 @@ tools:
   category: Design
   sub_category: Fonts
   image_url: https://img.stackshare.io/service/3244/1_Mr1Fy00XjPGNf1Kkp_hWtw_2x.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/components-font-awesome/bower.json
   detection_source: vendor/components-font-awesome/bower.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -427,6 +453,7 @@ tools:
   category: Application Utilities
   sub_category: Static Site Generators
   image_url: https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/Gemfile
   detection_source: vendor/bootstrap/Gemfile
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -439,7 +466,8 @@ tools:
   category: Application Utilities
   sub_category: Mapping APIs
   image_url: https://img.stackshare.io/service/3208/397ce8027eb036960f00dd5153d41993.png
-  detection_source: vendor/components-font-awesome/bower.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: Q
@@ -451,6 +479,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -463,6 +492,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server
   detection_source: Repo Metadata
 - name: auto
   description: Making the Car buying process easier
@@ -470,6 +500,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/2634/quvIzEn2_normal.jpg
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -478,6 +509,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/5588/jscom.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -486,6 +518,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -499,7 +532,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -513,7 +546,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -527,7 +560,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -540,7 +573,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
-  detection_source: vendor/components-font-awesome/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: babel-eslint
@@ -553,7 +587,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -567,7 +601,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16032/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -581,7 +615,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16205/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -601,6 +635,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17198/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -614,7 +649,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17230/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -627,6 +662,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18731/default_896e971e78d35d9228342aa32100298402d2473b.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -639,6 +675,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16486/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -652,7 +689,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18113/image.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -665,6 +702,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17384/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -677,6 +715,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16838/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -690,8 +729,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: package-lock.json
-  detection_source: vendor/components-font-awesome/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
+  detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: component
@@ -703,6 +742,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18220/default_46cc7e5b7a8c78af11a3ee7db2fc5fe39f295a6e.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/components-font-awesome/package.json
   detection_source: vendor/components-font-awesome/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -715,6 +755,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17998/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -727,6 +768,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16353/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -740,7 +782,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16660/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -754,7 +796,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-25 15:31:17.000000000 Z
@@ -768,7 +810,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -781,7 +823,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17017/default_824835a71140f223a333a5e10225c10368f12857.png
-  detection_source: vendor/components-font-awesome/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: eslint-plugin-compat
@@ -794,7 +837,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16743/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -807,6 +850,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17801/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -820,7 +864,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-25 16:10:39.000000000 Z
@@ -841,7 +885,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17718/default_7ff152b9bcf219fad0d56c78a016d5bad6a2a526.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-25 16:10:39.000000000 Z
@@ -862,7 +906,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16761/default_c11d90814ded8fcd305b22fdc42b42a3111f1f6d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-25 15:31:17.000000000 Z
@@ -877,8 +921,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: package-lock.json
-  detection_source: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: glob
@@ -891,7 +935,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -904,8 +948,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16874/default_768abdabb94806c932ace6262b6bbc8241907245.png
-  detection_source_url: package-lock.json
-  detection_source: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-24 08:24:12.000000000 Z
 - name: https
@@ -917,6 +961,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17546/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -929,7 +974,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17326/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
-  detection_source: vendor/components-font-awesome/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: ignore
@@ -941,6 +987,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17744/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -954,7 +1001,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16919/default_7fe969828600a90e84607bfa2a19979e53a0579d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -968,7 +1015,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16594/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -988,7 +1035,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16483/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
-  detection_source: vendor/components-font-awesome/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: is
@@ -1000,6 +1048,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17544/default_e665c133253b5cd434c1991167ebd25dc68f1c17.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1014,6 +1063,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15833/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1027,7 +1077,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1040,6 +1090,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1053,7 +1104,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15998/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1068,7 +1119,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17824/default_406cd74505018958e256af1ce55ae768c8a35f72.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1082,7 +1133,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1096,7 +1147,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17515/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1110,7 +1161,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16601/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1123,6 +1174,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16367/default_22cf6cee54c697b5a223902962cc57a55ee80be9.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1135,6 +1187,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16948/default_3740a7ec4487cb5332a821b353451c008aa3d4ae.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1147,6 +1200,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18688/default_97b689c91e523aad5ccec45c3b88d1f9b7cb4b6f.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1159,6 +1213,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18712/default_7ae3192ab02ed4c0f8eb62f145e160fed70e5ac8.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1172,7 +1227,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16421/default_23e0dabcd0197f0c1f0a41268f8ca3f7e8b1f1e2.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1185,6 +1240,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17889/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1199,7 +1255,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16178/default_0d450fcd03a0343bb89c9b7c3a8cf092daa8c3b9.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1212,6 +1268,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17983/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1225,7 +1282,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15827/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1251,6 +1308,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16247/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1263,6 +1321,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16105/default_5a461d436012a0c4024534aaba303dcdb0297d24.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1276,7 +1335,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1289,6 +1348,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18695/default_ba22650903e999378ab35f8093d2d808f0a46039.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1301,7 +1361,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17784/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
-  detection_source: vendor/components-font-awesome/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: path
@@ -1314,8 +1375,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16082/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
-  detection_source_url: package-lock.json
-  detection_source: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
+  detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: popper.js
@@ -1328,7 +1389,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1341,6 +1402,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1354,7 +1416,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1368,7 +1430,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16684/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1381,6 +1443,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16813/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1393,6 +1456,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18418/default_4d27e57a415c059481cbe1fd0734523c261d311a.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1405,6 +1469,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16890/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1418,7 +1483,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1439,7 +1504,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16072/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1453,7 +1518,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16128/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1467,7 +1532,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15877/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1481,7 +1546,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15859/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1494,6 +1559,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1507,7 +1573,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1534,7 +1600,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16496/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1548,7 +1614,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16339/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1561,6 +1627,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18455/default_d8e945bfec4c4a608fb0493abf73c9ec1cffc9a2.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1573,6 +1640,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1585,6 +1653,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17664/default_551bd6e1eb9aebdd20755ea11f70c7494c135ca4.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1598,7 +1667,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18141/default_3e053d4b47b1198323e0d3094fad02237b4d3c17.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1612,7 +1681,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16266/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1626,7 +1695,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16709/default_9b37c4b9479b5cf61478ac117da829ccdd0ed0a0.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1640,7 +1709,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16626/default_9012166d3e51cea5db6b4e69c80ace1c50b7509d.png
-  detection_source_url: vendor/bootstrap/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1653,6 +1722,20 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16466/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/package.json
+  last_updated_by: Maxime Golfier
+  last_updated_on: 2018-04-23 17:27:29.000000000 Z
+- name: test
+  description: ''
+  package_url: https://www.npmjs.com/test
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18204/default_329699d382cad74e0d389300999bd267b9699d3f.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1665,6 +1748,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18097/image.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1678,7 +1762,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15900/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/package-lock.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1691,6 +1775,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16624/default_f7592cb347fae67ce7c7f221ddd5fd2cb0afc28f.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1703,7 +1788,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
-  detection_source: vendor/components-font-awesome/package.json
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
+  detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
 - name: watch
@@ -1715,6 +1801,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16280/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1727,6 +1814,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17450/default_8c4651c288471a00b2fd6f2055b6de29cb9a049d.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/package.json
   detection_source: vendor/bootstrap/package.json
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1739,6 +1827,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19375/default_a6357952cecd3d7f5f139b05b2b322f8db813eda.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/Gemfile
   detection_source: vendor/bootstrap/Gemfile
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1751,6 +1840,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19321/default_31ccb7684f50eae9f0c40cb9965cc32299f8935e.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/Gemfile
   detection_source: vendor/bootstrap/Gemfile
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1763,6 +1853,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19334/default_b5954b79fd4e91f3072bc3138e733e2e51071020.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/Gemfile
   detection_source: vendor/bootstrap/Gemfile
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
@@ -1776,6 +1867,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19505/default_9507d505ecf2d6fecc582d9657a2ec76851b6113.png
+  detection_source_url: https://github.com/maxgfr/visual-recognition-server/blob/master/vendor/bootstrap/Gemfile
   detection_source: vendor/bootstrap/Gemfile
   last_updated_by: Maxime Golfier
   last_updated_on: 2018-04-23 17:27:29.000000000 Z
